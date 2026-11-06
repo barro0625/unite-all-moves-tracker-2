@@ -6,3 +6,52 @@
 /* V4 avatar layout */
 .pokemon-identity{display:flex;align-items:center;gap:10px;min-width:0}.pokemon-avatar,.avatar-fallback{width:48px;height:48px;flex:0 0 48px;object-fit:contain;border-radius:12px;background:#22344c;border:1px solid #344b68;padding:3px}.avatar-fallback{display:grid;place-items:center;color:#9fc8e9;font-weight:800;font-size:20px}.pokemon-title{display:flex;flex-direction:column;gap:3px;min-width:0}.pokemon-title small{font-size:9px;color:#7489a5;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.pokemon-card .card-top{align-items:center}.pokemon-card .status{margin-left:auto}.modal-identity{display:flex;align-items:center;gap:12px}.modal-avatar{width:58px;height:58px;object-fit:contain;border-radius:14px;background:#20334b;border:1px solid #38516d;padding:3px}.pokemon-card{min-height:108px}.pokemon-name{display:block}
 @media(max-width:560px){.pokemon-avatar,.avatar-fallback{width:40px;height:40px;flex-basis:40px}.modal-avatar{width:50px;height:50px}}
+/* V11 search, cloud sync and random challenge */
+.toolbar{flex-wrap:wrap}.toolbar .search{flex:1 1 250px}.toolbar select{min-width:150px}.cloud-panel{margin:-8px 0 26px;padding:18px;background:linear-gradient(145deg,#172a40,#111d2e);border:1px solid #35516e;border-radius:15px}.cloud-panel.hidden{display:none}.cloud-title{display:flex;align-items:flex-start;justify-content:space-between;gap:12px}.cloud-title h3{margin:0;font-size:16px}.cloud-title p,.cloud-status{font-size:11px;color:var(--muted);line-height:1.6}.cloud-fields{display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;margin:14px 0}.cloud-fields label{font-size:10px;color:#c7d6e8}.cloud-fields input{display:block;width:100%;margin-top:6px;height:38px;padding:0 10px;background:#0b1524;border:1px solid #30445e;border-radius:8px;color:var(--text);font:12px 'Noto Sans TC',sans-serif}.cloud-actions{display:flex;flex-wrap:wrap;gap:8px}.cloud-status{margin:12px 0 0}.cloud-help{margin-top:12px;color:#c7d6e8;font-size:11px}.cloud-help summary{cursor:pointer}.cloud-help pre{white-space:pre-wrap;overflow:auto;background:#091321;border:1px solid #30445e;border-radius:8px;padding:12px;color:#a9e8d2;font-size:10px;line-height:1.5}.cloud-help small{color:#f2c98a;line-height:1.6}.random-highlight{outline:2px solid var(--gold);box-shadow:0 0 22px #ffc96b55}
+@media(max-width:700px){.cloud-fields{grid-template-columns:1fr}.cloud-actions button{flex:1 1 100%}.toolbar .primary,.toolbar .secondary{flex:1}}
+
+/* V12：角色定位分類與色彩 */
+.card-tags{display:flex;flex-direction:column;align-items:flex-end;gap:5px;flex:0 0 auto}.role-tag{font-size:9px;line-height:1;border-radius:20px;padding:5px 7px;background:#34445a;color:#e8f1ff;white-space:nowrap}.pokemon-card{position:relative;overflow:hidden}.pokemon-card:before{content:"";position:absolute;inset:0 0 auto;height:3px;background:var(--role-color,#71839a)}.pokemon-card.role-attacker{--role-color:#e45d65;background:linear-gradient(145deg,#3b202b,#171b2a)}.pokemon-card.role-defender{--role-color:#45c78e;background:linear-gradient(145deg,#183b35,#111d2e)}.pokemon-card.role-speedster{--role-color:#4e9fe7;background:linear-gradient(145deg,#1b3047,#111d2e)}.pokemon-card.role-allrounder{--role-color:#b28af0;background:linear-gradient(145deg,#332747,#171b2d)}.pokemon-card.role-supporter{--role-color:#e5b84f;background:linear-gradient(145deg,#3c3420,#171d2a)}.role-attacker .role-tag{background:#71343d;color:#ffdce0}.role-defender .role-tag{background:#20583f;color:#d4ffe9}.role-speedster .role-tag{background:#244d70;color:#d6edff}.role-allrounder .role-tag{background:#503b70;color:#edddff}.role-supporter .role-tag{background:#685222;color:#fff0c5}.pokemon-card:hover{filter:brightness(1.12)}#roleFilter{border-color:#526b89}
+
+/* V13 dashboard and OBS */
+.overview-panel,.unfinished-panel{background:linear-gradient(145deg,#14243a,#101a2b);border:1px solid var(--line);border-radius:18px;padding:20px;margin:10px 0 24px}.overview-track{height:12px;background:#263750;border-radius:99px;overflow:hidden;margin:14px 0 18px}.overview-track span{display:block;height:100%;width:0;background:linear-gradient(90deg,#67e8c1,#72a7ff);border-radius:99px;transition:width .25s}.overview-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px}.overview-role{background:#1a2b42;border:1px solid #30445f;border-radius:12px;padding:12px}.overview-role strong{display:block;font-size:20px}.overview-role small{color:var(--muted)}.unfinished-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;max-height:320px;overflow:auto}.unfinished-item{display:flex;justify-content:space-between;align-items:center;gap:10px;text-align:left;background:#1a2b42;border:1px solid #30445f;color:var(--text);border-radius:10px;padding:10px 12px;cursor:pointer}.unfinished-item:hover{border-color:var(--accent)}.unfinished-item small{display:block;color:var(--muted);margin-top:3px}.unfinished-empty{color:var(--accent);padding:10px 0}.pokemon-card{border-top:3px solid var(--role-color)}
+.obs-mode{background:#080d18;color:#fff;min-height:100vh;padding:22px;font-family:'DM Sans','Noto Sans TC',sans-serif}.obs-wrap{max-width:900px;margin:auto;background:linear-gradient(135deg,#14243aee,#101827ee);border:1px solid #40536e;border-radius:18px;padding:22px;box-shadow:0 12px 40px #0008}.obs-title{font-weight:800;font-size:clamp(20px,4vw,34px)}.obs-sub{color:#a9bad0;font-size:13px;margin:6px 0 18px}.obs-numbers{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.obs-number{background:#1c2d45;border-radius:12px;padding:14px}.obs-number b{display:block;font-size:clamp(24px,5vw,40px)}.obs-number span{font-size:12px;color:#b8c8dc}.obs-bar{height:12px;background:#34455d;border-radius:99px;overflow:hidden;margin-top:16px}.obs-bar span{display:block;height:100%;background:linear-gradient(90deg,#67e8c1,#72a7ff)}.obs-hint{color:#a9bad0;font-size:12px;margin-top:12px}@media(max-width:700px){.overview-grid{grid-template-columns:repeat(2,1fr)}.unfinished-list{grid-template-columns:1fr}.obs-numbers{grid-template-columns:1fr 1fr}}
+
+/* V14：挑戰總覽與未完成技能組可展開／收合 */
+.collapsible-panel{padding:0;overflow:hidden}
+.collapsible-head{list-style:none;cursor:pointer;padding:18px 20px;margin:0;align-items:center;gap:14px;user-select:none}
+.collapsible-head::-webkit-details-marker{display:none}
+.collapsible-head::marker{content:""}
+.collapsible-head>div{min-width:0}
+.collapsible-head h2{display:flex;align-items:center;gap:8px}
+.summary-tools{display:flex;align-items:center;gap:10px;flex:0 0 auto}
+.collapse-icon{width:28px;height:28px;display:grid;place-items:center;border:1px solid var(--line);border-radius:50%;color:var(--accent);font-size:19px;transition:transform .2s,background .2s}
+.collapsible-panel[open] .collapse-icon{transform:rotate(180deg);background:#20334a}
+.collapsible-head:hover .collapse-icon{border-color:var(--accent)}
+.collapsible-content{padding:0 20px 20px;animation:panelReveal .18s ease-out}
+@keyframes panelReveal{from{opacity:.35;transform:translateY(-4px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:560px){.collapsible-head{padding:15px}.collapsible-content{padding:0 15px 15px}.collapsible-head p{max-width:245px;line-height:1.5}.summary-tools{gap:6px}}
+
+/* V15：明確的按鈕式展開／收合控制 */
+.collapsible-panel{padding:0;overflow:hidden}
+.collapsible-head{width:100%;border:0;background:transparent;color:inherit;display:flex;align-items:center;justify-content:space-between;text-align:left;cursor:pointer;padding:18px 20px;gap:14px;font:inherit;user-select:none}
+.collapsible-head:hover{background:rgba(120,150,190,.08)}
+.collapsible-head:focus-visible{outline:2px solid var(--accent);outline-offset:-3px}
+.collapsible-title{display:flex;flex-direction:column;gap:5px;min-width:0}
+.collapsible-title strong{font-size:19px}
+.collapsible-title small{font-size:12px;color:var(--muted);font-weight:400;line-height:1.5}
+.collapsible-content{padding:0 20px 20px}
+.collapsible-panel.is-collapsed .collapsible-content{display:none}
+.collapse-icon{width:30px;height:30px;display:grid;place-items:center;border:1px solid var(--line);border-radius:50%;color:var(--accent);font-size:19px;transition:transform .2s,background .2s;flex:0 0 auto}
+.collapsible-head[aria-expanded="false"] .collapse-icon{transform:rotate(-90deg)}
+.summary-tools{display:flex;align-items:center;gap:10px;flex:0 0 auto}
+@media(max-width:560px){.collapsible-head{padding:15px}.collapsible-content{padding:0 15px 15px}.collapsible-title small{max-width:245px}.summary-tools{gap:6px}}
+
+/* V16 skill icon chips */
+.combo-skills{display:flex;align-items:center;flex-wrap:wrap;gap:7px;min-width:0}
+.skill-chip{display:inline-flex;align-items:center;gap:6px;padding:4px 7px;border-radius:10px;background:rgba(105,130,165,.12);font-size:13px;line-height:1.25}
+.skill-icon{width:30px;height:30px;object-fit:cover;border-radius:7px;flex:0 0 30px;background:#25344a}
+.skill-icon-fallback{width:30px;height:30px;display:inline-grid;place-items:center;border-radius:7px;background:linear-gradient(135deg,#334b68,#647d9e);color:#fff;font-size:17px;flex:0 0 30px}
+.skill-plus{color:#8fa4bf;font-weight:800;margin:0 1px}
+.combo-name{display:flex;align-items:center;min-width:0}
+@media(max-width:560px){.skill-chip{font-size:12px}.skill-icon,.skill-icon-fallback{width:26px;height:26px;flex-basis:26px}}

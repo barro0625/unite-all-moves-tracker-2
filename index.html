@@ -9,7 +9,7 @@
 </head>
 <body>
 <header class="topbar">
-  <div class="brand"><div class="brand-mark">U</div><div><strong>全技能組一勝挑戰</strong><small>POKÉMON UNITE · MOVESET WIN TRACKER · V10</small></div></div>
+  <div class="brand"><div class="brand-mark">U</div><div><strong>全技能組一勝挑戰</strong><small>POKÉMON UNITE · MOVESET WIN TRACKER · V16</small></div></div>
   <a class="source-link" href="https://unite-db.com/" target="_blank" rel="noreferrer">UNITE-DB ↗</a>
 </header>
 <main>
@@ -24,16 +24,36 @@
     <article><small>剩餘技能組</small><strong id="leftCount">0</strong><em>尚待取得勝利</em></article>
     <article><small>已完成寶可夢</small><strong id="donePokemon">0</strong><em id="rosterCount">共 0 隻角色</em></article>
   </section>
+  <section class="overview-panel collapsible-panel" id="overviewPanel">
+    <button type="button" class="collapsible-head" data-panel-toggle="overviewPanel" aria-expanded="true" aria-controls="overviewContent">
+      <span class="collapsible-title"><strong>全角色挑戰總覽</strong><small>所有已設定技能組的完成進度與定位分布。</small></span>
+      <span class="summary-tools"><span class="count-pill" id="overallPct">0%</span><span class="collapse-icon" aria-hidden="true">⌄</span></span>
+    </button>
+    <div class="collapsible-content" id="overviewContent">
+      <div class="overview-track"><span id="overallBar"></span></div>
+      <div class="overview-grid" id="roleOverview"></div>
+    </div>
+  </section>
+  <section class="unfinished-panel collapsible-panel" id="unfinishedPanel">
+    <button type="button" class="collapsible-head" data-panel-toggle="unfinishedPanel" aria-expanded="true" aria-controls="unfinishedContent">
+      <span class="collapsible-title"><strong>尚未完成的技能組</strong><small>點選項目即可開啟角色紀錄，快速找到下一個目標。</small></span>
+      <span class="summary-tools"><span id="unfinishedCount" class="count-pill">0 組</span><span class="collapse-icon" aria-hidden="true">⌄</span></span>
+    </button>
+    <div class="collapsible-content" id="unfinishedContent"><div id="unfinishedList" class="unfinished-list"></div></div>
+  </section>
   <section class="toolbar">
     <label class="search"><span>⌕</span><input id="search" type="search" placeholder="搜尋寶可夢名稱…"></label>
-    <select id="filter"><option value="all">全部角色</option><option value="progress">進行中</option><option value="done">已全數完成</option><option value="not">尚未開始</option></select>
+    <select id="roleFilter" aria-label="依角色定位篩選"><option value="all">全部定位</option><option value="攻擊型">攻擊型</option><option value="防禦型">防禦型</option><option value="敏捷型">敏捷型</option><option value="平衡型">平衡型</option><option value="輔助型">輔助型</option></select>
+    <select id="filter" aria-label="依挑戰進度篩選"><option value="all">全部進度</option><option value="progress">進行中</option><option value="done">已全數完成</option><option value="not">尚未開始／未設定</option><option value="unconfigured">待設定</option></select>
+    <button class="primary" id="randomBtn">🎲 隨機挑戰</button>
     <button class="secondary" id="exportBtn">匯出備份</button>
     <button class="secondary" id="importBtn">匯入備份</button>
+    <button class="secondary" id="obsBtn">OBS 實況模式</button>
     <input id="importFile" type="file" accept="application/json" hidden>
   </section>
-  <div class="section-head"><div><h2>寶可夢列表</h2><p>V10：套用使用者最新修改的全部技能名稱與技能組設定。預填名稱可能有誤，請在開始挑戰前自行核對；仍可自行編輯。</p></div><span id="shownCount" class="count-pill">0 隻</span></div>
+  <div class="section-head"><div><h2>寶可夢列表</h2><p>V16：技能圖示試行與可收合挑戰總覽、未完成技能組與 OBS 實況模式，支援名稱搜尋、定位篩選與隨機挑戰。</p></div><span id="shownCount" class="count-pill">0 隻</span></div>
   <section id="grid" class="pokemon-grid"></section>
-  <footer>紀錄只會儲存在目前瀏覽器。清除瀏覽器網站資料前，請先匯出備份。<br>非官方粉絲工具，與 Nintendo、The Pokémon Company 或 TiMi Studio Group 無關。</footer>
+  <footer>紀錄儲存在目前瀏覽器；建議定期使用 JSON 匯出備份。<br>非官方粉絲工具，與 Nintendo、The Pokémon Company 或 TiMi Studio Group 無關。</footer>
 </main>
 <div id="modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
  <div class="modal-backdrop" data-close="1"></div>
@@ -52,7 +72,7 @@
    <label id="move1Label">技能一選項<textarea id="move1" rows="3" placeholder="每行一個選項"></textarea></label>
    <label id="move2Label">技能二選項<textarea id="move2" rows="3" placeholder="每行一個選項"></textarea></label>
   </div>
-  <div class="combo-head"><div><h3>技能組勝利紀錄</h3><small id="comboSummary">0 組</small></div><button id="resetPokemon" class="text-btn">重置此角色</button></div>
+  <div class="combo-head"><div><h3>技能組勝利紀錄</h3><small id="comboSummary">0 組</small></div></div>
   <div id="comboList" class="combo-list"></div>
   <div class="dialog-actions"><button class="secondary" id="cancelModal">取消</button><button class="primary" id="saveModal">儲存設定</button></div>
  </div>
