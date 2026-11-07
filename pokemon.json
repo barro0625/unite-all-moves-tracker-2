@@ -1941,5 +1941,1280 @@
     "website": "https://unite-db.com/",
     "assetBase": "https://d275t8dp8rxb42.cloudfront.net/assets/skills/",
     "note": "技能圖示優先使用 Unite-DB 公開靜態資產；圖片載入失敗時回退至既有圖示來源。技能英文名稱使用 moveIcons 對照，角色資料夾使用 uniteDbSkillFolders 對照。"
-  }
+  },
+  "moveNames": {
+    "暗襲要害": {
+      "en": "Night Slash",
+      "ja": "つじぎり",
+      "status": "provisional"
+    },
+    "追打": {
+      "en": "Pursuit",
+      "ja": "おいうち",
+      "status": "provisional"
+    },
+    "精神利刃": {
+      "en": "Psycho Cut",
+      "ja": "サイコカッター",
+      "status": "provisional"
+    },
+    "突襲": {
+      "en": "Sucker Punch",
+      "ja": "ふいうち",
+      "status": "provisional"
+    },
+    "聖劍": {
+      "en": "Sacred Sword",
+      "ja": "せいなるつるぎ",
+      "status": "provisional"
+    },
+    "暗影爪": {
+      "en": "Shadow Claw",
+      "ja": "シャドークロー",
+      "status": "provisional"
+    },
+    "鐵頭": {
+      "en": "Iron Head",
+      "ja": "アイアンヘッド",
+      "status": "provisional"
+    },
+    "廣域防守": {
+      "en": "Wide Guard",
+      "ja": "ワイドガード",
+      "status": "provisional"
+    },
+    "自我再生": {
+      "en": "Recover",
+      "ja": "じこさいせい",
+      "status": "provisional"
+    },
+    "裝飾": {
+      "en": "Decorate",
+      "ja": "デコレーション",
+      "status": "provisional"
+    },
+    "魔法閃耀": {
+      "en": "Dazzling Gleam",
+      "ja": "マジカルシャイン",
+      "status": "provisional"
+    },
+    "甜甜香氣": {
+      "en": "Sweet Scent",
+      "ja": "あまいかおり",
+      "status": "provisional"
+    },
+    "火焰旋渦": {
+      "en": "Fire Spin",
+      "ja": "ほのおのうず",
+      "status": "pilot-match"
+    },
+    "鎧農炮": {
+      "en": "Armor Cannon",
+      "ja": "アーマーキャノン",
+      "status": "provisional"
+    },
+    "蓄能焰襲": {
+      "en": "Flame Charge",
+      "ja": "ニトロチャージ",
+      "status": "provisional"
+    },
+    "精神強念": {
+      "en": "Psychic",
+      "ja": "サイコキネシス",
+      "status": "provisional"
+    },
+    "冰凍光束": {
+      "en": "Ice Beam",
+      "ja": "れいとうビーム",
+      "status": "provisional"
+    },
+    "暴風雪": {
+      "en": "Blizzard",
+      "ja": "ふぶき",
+      "status": "provisional"
+    },
+    "潮旋": {
+      "en": "Whirlpool",
+      "ja": "うずしお",
+      "status": "provisional"
+    },
+    "水流尾": {
+      "en": "Aqua Tail",
+      "ja": "アクアテール",
+      "status": "provisional"
+    },
+    "嬉鬧": {
+      "en": "Play Rough",
+      "ja": "じゃれつく",
+      "status": "provisional"
+    },
+    "水之波動": {
+      "en": "Water Pulse",
+      "ja": "みずのはどう",
+      "status": "provisional"
+    },
+    "噴水": {
+      "en": "Water Spout",
+      "ja": "しおふき",
+      "status": "provisional"
+    },
+    "水炮": {
+      "en": "Hydro Pump",
+      "ja": "ハイドロポンプ",
+      "status": "provisional"
+    },
+    "高速旋轉": {
+      "en": "Rapid Spin",
+      "ja": "こうそくスピン",
+      "status": "provisional"
+    },
+    "衝浪": {
+      "en": "Surf",
+      "ja": "なみのり",
+      "status": "provisional"
+    },
+    "火焰踢": {
+      "en": "Blaze Kick",
+      "ja": "ブレイズキック",
+      "status": "provisional"
+    },
+    "過熱": {
+      "en": "Overheat",
+      "ja": "オーバーヒート",
+      "status": "provisional"
+    },
+    "火焰拳": {
+      "en": "Fire Punch",
+      "ja": "ほのおのパンチ",
+      "status": "pilot-match"
+    },
+    "真氣彈": {
+      "en": "Focus Blast",
+      "ja": "きあいだま",
+      "status": "provisional"
+    },
+    "幫助": {
+      "en": "Helping Hand",
+      "ja": "てだすけ",
+      "status": "provisional"
+    },
+    "炸蛋": {
+      "en": "Egg Bomb",
+      "ja": "タマゴばくだん",
+      "status": "provisional"
+    },
+    "神秘守護": {
+      "en": "Safeguard",
+      "ja": "しんぴのまもり",
+      "status": "provisional"
+    },
+    "生蛋": {
+      "en": "Soft-Boiled",
+      "ja": "タマゴうみ",
+      "status": "provisional"
+    },
+    "吸血": {
+      "en": "Leech Life",
+      "ja": "きゅうけつ",
+      "status": "provisional"
+    },
+    "蠻力": {
+      "en": "Superpower",
+      "ja": "ばかぢから",
+      "status": "provisional"
+    },
+    "猛撲": {
+      "en": "Lunge",
+      "ja": "とびかかる",
+      "status": "provisional"
+    },
+    "擊落": {
+      "en": "Smack Down",
+      "ja": "うちおとす",
+      "status": "provisional"
+    },
+    "潛靈奇襲": {
+      "en": "Phantom Force",
+      "ja": "ゴーストダイブ",
+      "status": "provisional"
+    },
+    "悔念劍": {
+      "en": "Bitter Blade",
+      "ja": "むねんのつるぎ",
+      "status": "provisional"
+    },
+    "噴射火焰": {
+      "en": "Flamethrower",
+      "ja": "かえんほうしゃ",
+      "status": "pilot-match"
+    },
+    "封印": {
+      "en": "Imprison",
+      "ja": "ふういん",
+      "status": "provisional"
+    },
+    "靈騷": {
+      "en": "Poltergeist",
+      "ja": "ポルターガイスト",
+      "status": "provisional"
+    },
+    "閃焰衝鋒": {
+      "en": "Flare Blitz",
+      "ja": "フレアドライブ",
+      "status": "pilot-match"
+    },
+    "大字爆炎": {
+      "en": "Fire Blast",
+      "ja": "だいもんじ",
+      "status": "pilot-match"
+    },
+    "火焰拳＋閃焰衝鋒": {
+      "en": "Fire Punch＋Flare Blitz",
+      "ja": "ほのおのパンチ＋フレアドライブ",
+      "status": "needs-review"
+    },
+    "噴射火焰＋大字爆炎": {
+      "en": "Flamethrower＋Fire Blast",
+      "ja": "かえんほうしゃ＋だいもんじ",
+      "status": "needs-review"
+    },
+    "火焰球": {
+      "en": "Pyro Ball",
+      "ja": "かえんボール",
+      "status": "provisional"
+    },
+    "佯攻": {
+      "en": "Feint",
+      "ja": "フェイント",
+      "status": "provisional"
+    },
+    "月光": {
+      "en": "Moonlight",
+      "ja": "つきのひかり",
+      "status": "provisional"
+    },
+    "吸取之吻": {
+      "en": "Draining Kiss",
+      "ja": "ドレインキッス",
+      "status": "provisional"
+    },
+    "看我嘛": {
+      "en": "Follow Me",
+      "ja": "このゆびとまれ",
+      "status": "provisional"
+    },
+    "重力": {
+      "en": "Gravity",
+      "ja": "じゅうりょく",
+      "status": "provisional"
+    },
+    "花療": {
+      "en": "Floral Healing",
+      "ja": "フラワーヒール",
+      "status": "provisional"
+    },
+    "天使之吻": {
+      "en": "Sweet Kiss",
+      "ja": "てんしのキッス",
+      "status": "provisional"
+    },
+    "魔法葉": {
+      "en": "Magical Leaf",
+      "ja": "マジカルリーフ",
+      "status": "provisional"
+    },
+    "打草結": {
+      "en": "Grass Knot",
+      "ja": "くさむすび",
+      "status": "provisional"
+    },
+    "潛水": {
+      "en": "Dive",
+      "ja": "ダイビング",
+      "status": "provisional"
+    },
+    "空氣斬": {
+      "en": "Air Slash",
+      "ja": "エアスラッシュ",
+      "status": "provisional"
+    },
+    "暴風": {
+      "en": "Hurricane",
+      "ja": "ぼうふう",
+      "status": "provisional"
+    },
+    "破殼": {
+      "en": "Shell Smash",
+      "ja": "からをやぶる",
+      "status": "provisional"
+    },
+    "岩石封鎖": {
+      "en": "Rock Tomb",
+      "ja": "がんせきふうじ",
+      "status": "provisional"
+    },
+    "十字剪": {
+      "en": "X-Scissor",
+      "ja": "シザークロス",
+      "status": "provisional"
+    },
+    "隱形岩": {
+      "en": "Stealth Rock",
+      "ja": "ステルスロック",
+      "status": "provisional"
+    },
+    "詭計": {
+      "en": "Nasty Plot",
+      "ja": "わるだくみ",
+      "status": "provisional"
+    },
+    "惡之波動": {
+      "en": "Dark Pulse",
+      "ja": "あくのはどう",
+      "status": "provisional"
+    },
+    "暗黑洞": {
+      "en": "Dark Void",
+      "ja": "ダークホール",
+      "status": "provisional"
+    },
+    "縫影": {
+      "en": "Spirit Shackle",
+      "ja": "かげぬい",
+      "status": "needs-review"
+    },
+    "飛葉快刀": {
+      "en": "Razor Leaf",
+      "ja": "はっぱカッター",
+      "status": "provisional"
+    },
+    "飛葉風暴": {
+      "en": "Leaf Storm",
+      "ja": "リーフストーム",
+      "status": "needs-review"
+    },
+    "影子偷襲": {
+      "en": "Shadow Sneak",
+      "ja": "かげうち",
+      "status": "provisional"
+    },
+    "魔法火焰": {
+      "en": "Mystical Fire",
+      "ja": "マジカルフレイム",
+      "status": "provisional"
+    },
+    "強力鞭打": {
+      "en": "Power Whip",
+      "ja": "パワーウィップ",
+      "status": "needs-review"
+    },
+    "擲錨": {
+      "en": "Anchor Shot",
+      "ja": "アンカーショット",
+      "status": "needs-review"
+    },
+    "重磅衝撞": {
+      "en": "Heavy Slam",
+      "ja": "ヘビーボンバー",
+      "status": "provisional"
+    },
+    "三重攻擊": {
+      "en": "Tri Attack",
+      "ja": "トライアタック",
+      "status": "provisional"
+    },
+    "啄鑽": {
+      "en": "Drill Peck",
+      "ja": "ドリルくちばし",
+      "status": "provisional"
+    },
+    "高速移動": {
+      "en": "Agility",
+      "ja": "こうそくいどう",
+      "status": "provisional"
+    },
+    "飛踢": {
+      "en": "Jump Kick",
+      "ja": "とびげり",
+      "status": "provisional"
+    },
+    "龍之舞": {
+      "en": "Dragon Dance",
+      "ja": "りゅうのまい",
+      "status": "provisional"
+    },
+    "龍息": {
+      "en": "Dragon Breath",
+      "ja": "りゅうのいぶき",
+      "status": "provisional"
+    },
+    "暗影球": {
+      "en": "Shadow Ball",
+      "ja": "シャドーボール",
+      "status": "provisional"
+    },
+    "神速": {
+      "en": "Extreme Speed",
+      "ja": "しんそく",
+      "status": "provisional"
+    },
+    "破壞光線": {
+      "en": "Hyper Beam",
+      "ja": "はかいこうせん",
+      "status": "provisional"
+    },
+    "逆鱗": {
+      "en": "Outrage",
+      "ja": "げきりん",
+      "status": "provisional"
+    },
+    "加農光炮": {
+      "en": "Flash Cannon",
+      "ja": "ラスターカノン",
+      "status": "needs-review"
+    },
+    "龍之波動": {
+      "en": "Dragon Pulse",
+      "ja": "りゅうのはどう",
+      "status": "provisional"
+    },
+    "龍尾": {
+      "en": "Dragon Tail",
+      "ja": "ドラゴンテール",
+      "status": "provisional"
+    },
+    "花粉團": {
+      "en": "Pollen Puff",
+      "ja": "かふんだんご",
+      "status": "needs-review"
+    },
+    "青草攪拌器": {
+      "en": "Leaf Tornado",
+      "ja": "グラスミキサー",
+      "status": "needs-review"
+    },
+    "棉花防守": {
+      "en": "Cotton Guard",
+      "ja": "わたほうし",
+      "status": "provisional"
+    },
+    "棉孢子": {
+      "en": "Cotton Spore",
+      "ja": "わたほうし",
+      "status": "provisional"
+    },
+    "金屬爪": {
+      "en": "Metal Claw",
+      "ja": "メタルクロー",
+      "status": "provisional"
+    },
+    "水流噴射": {
+      "en": "Aqua Jet",
+      "ja": "アクアジェット",
+      "status": "needs-review"
+    },
+    "幻象光線": {
+      "en": "Psybeam",
+      "ja": "サイケこうせん",
+      "status": "needs-review"
+    },
+    "預知未來": {
+      "en": "Future Sight",
+      "ja": "みらいよち",
+      "status": "provisional"
+    },
+    "輔助力量": {
+      "en": "Stored Power",
+      "ja": "アシストパワー",
+      "status": "provisional"
+    },
+    "精神衝擊": {
+      "en": "Psyshock",
+      "ja": "サイコショック",
+      "status": "provisional"
+    },
+    "超級角擊": {
+      "en": "Megahorn",
+      "ja": "メガホーン",
+      "status": "needs-review"
+    },
+    "背水一戰": {
+      "en": "No Retreat",
+      "ja": "はいすいのじん",
+      "status": "needs-review"
+    },
+    "圍攻": {
+      "en": "Beat Up",
+      "ja": "ふくろだたき",
+      "status": "needs-review"
+    },
+    "咬碎": {
+      "en": "Crunch",
+      "ja": "かみくだく",
+      "status": "needs-review"
+    },
+    "攀瀑": {
+      "en": "Waterfall",
+      "ja": "たきのぼり",
+      "status": "needs-review"
+    },
+    "挖洞": {
+      "en": "Dig",
+      "ja": "あなをほる",
+      "status": "needs-review"
+    },
+    "龍之俯衝": {
+      "en": "Dragon Rush",
+      "ja": "ドラゴンダイブ",
+      "status": "needs-review"
+    },
+    "地震": {
+      "en": "Earthquake",
+      "ja": "じしん",
+      "status": "provisional"
+    },
+    "龍爪": {
+      "en": "Dragon Claw",
+      "ja": "ドラゴンクロー",
+      "status": "provisional"
+    },
+    "月亮之力": {
+      "en": "Moonblast",
+      "ja": "ムーンフォース",
+      "status": "provisional"
+    },
+    "污泥炸彈": {
+      "en": "Sludge Bomb",
+      "ja": "ヘドロばくだん",
+      "status": "provisional"
+    },
+    "禍不單行": {
+      "en": "Hex",
+      "ja": "たたりめ",
+      "status": "needs-review"
+    },
+    "食夢": {
+      "en": "Dream Eater",
+      "ja": "ゆめくい",
+      "status": "provisional"
+    },
+    "冰凍之風": {
+      "en": "Icy Wind",
+      "ja": "こごえるかぜ",
+      "status": "provisional"
+    },
+    "冰錐": {
+      "en": "Icicle Spear",
+      "ja": "つららばり",
+      "status": "needs-review"
+    },
+    "冰礫": {
+      "en": "Ice Shard",
+      "ja": "こおりのつぶて",
+      "status": "provisional"
+    },
+    "冷凍乾燥": {
+      "en": "Freeze-Dry",
+      "ja": "フリーズドライ",
+      "status": "provisional"
+    },
+    "濁流": {
+      "en": "Muddy Water",
+      "ja": "だくりゅう",
+      "status": "needs-review"
+    },
+    "酸液炸彈": {
+      "en": "Acid Spray",
+      "ja": "アシッドボム",
+      "status": "needs-review"
+    },
+    "種子機關槍": {
+      "en": "Bullet Seed",
+      "ja": "タネマシンガン",
+      "status": "needs-review"
+    },
+    "打嗝": {
+      "en": "Belch",
+      "ja": "ゲップ",
+      "status": "needs-review"
+    },
+    "渴望": {
+      "en": "Covet",
+      "ja": "ほしがる",
+      "status": "needs-review"
+    },
+    "大快朵頤": {
+      "en": "Stuff Cheeks",
+      "ja": "ほおばる",
+      "status": "needs-review"
+    },
+    "飛水手裡劍": {
+      "en": "Water Shuriken",
+      "ja": "みずしゅりけん",
+      "status": "needs-review"
+    },
+    "影子分身": {
+      "en": "Double Team",
+      "ja": "かげぶんしん",
+      "status": "needs-review"
+    },
+    "煙幕": {
+      "en": "Smokescreen",
+      "ja": "えんまく",
+      "status": "needs-review"
+    },
+    "彈跳": {
+      "en": "Splash",
+      "ja": "はねる",
+      "status": "needs-review"
+    },
+    "龍息＋攀瀑": {
+      "en": "Dragon Breath + Waterfall",
+      "ja": "りゅうのいぶき＋たきのぼり",
+      "status": "needs-review"
+    },
+    "神聖之火": {
+      "en": "Sacred Fire",
+      "ja": "せいなるほのお",
+      "status": "needs-review"
+    },
+    "神鳥猛擊": {
+      "en": "Brave Bird",
+      "ja": "ブレイブバード",
+      "status": "provisional"
+    },
+    "戲法": {
+      "en": "Trick",
+      "ja": "トリック",
+      "status": "provisional"
+    },
+    "異次元洞": {
+      "en": "Hyperspace Hole",
+      "ja": "いじげんホール",
+      "status": "needs-review"
+    },
+    "狙擊": {
+      "en": "Snipe Shot",
+      "ja": "ねらいうち",
+      "status": "needs-review"
+    },
+    "致命針刺": {
+      "en": "Fell Stinger",
+      "ja": "とどめばり",
+      "status": "needs-review"
+    },
+    "雜技": {
+      "en": "Acrobatics",
+      "ja": "アクロバット",
+      "status": "needs-review"
+    },
+    "飛彈針": {
+      "en": "Pin Missile",
+      "ja": "ミサイルばり",
+      "status": "needs-review"
+    },
+    "伏特替換": {
+      "en": "Volt Switch",
+      "ja": "ボルトチェンジ",
+      "status": "provisional"
+    },
+    "泡沫光線": {
+      "en": "Bubble Beam",
+      "ja": "バブルこうせん",
+      "status": "needs-review"
+    },
+    "滅亡之歌": {
+      "en": "Perish Song",
+      "ja": "ほろびのうた",
+      "status": "needs-review"
+    },
+    "薄霧球": {
+      "en": "Mist Ball",
+      "ja": "ミストボール",
+      "status": "needs-review"
+    },
+    "龍聲鼓舞": {
+      "en": "Dragon Cheer",
+      "ja": "ドラゴンエール",
+      "status": "needs-review"
+    },
+    "流星群": {
+      "en": "Draco Meteor",
+      "ja": "りゅうせいぐん",
+      "status": "needs-review"
+    },
+    "意念移物": {
+      "en": "Telekinesis",
+      "ja": "テレキネシス",
+      "status": "provisional"
+    },
+    "潔淨光芒": {
+      "en": "Purifying Light",
+      "ja": "せいなるちから",
+      "status": "needs-review"
+    },
+    "日光刃": {
+      "en": "Solar Blade",
+      "ja": "ソーラーブレード",
+      "status": "needs-review"
+    },
+    "葉刃": {
+      "en": "Leaf Blade",
+      "ja": "リーフブレード",
+      "status": "needs-review"
+    },
+    "增強拳": {
+      "en": "Power-Up Punch",
+      "ja": "グロウパンチ",
+      "status": "needs-review"
+    },
+    "骨棒亂打": {
+      "en": "Bone Rush",
+      "ja": "ボーンラッシュ",
+      "status": "needs-review"
+    },
+    "近身戰": {
+      "en": "Close Combat",
+      "ja": "インファイト",
+      "status": "provisional"
+    },
+    "近身戰＋增強拳": {
+      "en": "Close Combat + Power-Up Punch",
+      "ja": "インファイト＋グロウパンチ",
+      "status": "needs-review"
+    },
+    "十字劈": {
+      "en": "Cross Chop",
+      "ja": "クロスチョップ",
+      "status": "provisional"
+    },
+    "爆裂拳": {
+      "en": "Dynamic Punch",
+      "ja": "ばくれつパンチ",
+      "status": "provisional"
+    },
+    "地獄翻滾": {
+      "en": "Submission",
+      "ja": "じごくぐるま",
+      "status": "provisional"
+    },
+    "冰凍牙": {
+      "en": "Ice Fang",
+      "ja": "こおりのキバ",
+      "status": "provisional"
+    },
+    "冰柱墜擊": {
+      "en": "Icicle Crash",
+      "ja": "つららおとし",
+      "status": "provisional"
+    },
+    "十萬馬力": {
+      "en": "High Horsepower",
+      "ja": "１０まんばりき",
+      "status": "needs-review"
+    },
+    "落英繽紛": {
+      "en": "Petal Blizzard",
+      "ja": "はなふぶき",
+      "status": "needs-review"
+    },
+    "千變萬花": {
+      "en": "Flower Trick",
+      "ja": "トリックフラワー",
+      "status": "needs-review"
+    },
+    "起草": {
+      "en": "Trailblaze",
+      "ja": "くさわけ",
+      "status": "needs-review"
+    },
+    "聚寶功": {
+      "en": "Pay Day",
+      "ja": "ネコにこばん",
+      "status": "needs-review"
+    },
+    "亂抓": {
+      "en": "Fury Swipes",
+      "ja": "みだれひっかき",
+      "status": "provisional"
+    },
+    "出奇一擊": {
+      "en": "Feint Attack",
+      "ja": "だましうち",
+      "status": "provisional"
+    },
+    "惡意追擊": {
+      "en": "Pursuit",
+      "ja": "おいうち",
+      "status": "needs-review"
+    },
+    "彗星拳": {
+      "en": "Meteor Mash",
+      "ja": "コメットパンチ",
+      "status": "provisional"
+    },
+    "陀螺球": {
+      "en": "Gyro Ball",
+      "ja": "ジャイロボール",
+      "status": "provisional"
+    },
+    "意念頭槌": {
+      "en": "Zen Headbutt",
+      "ja": "しねんのずつき",
+      "status": "needs-review"
+    },
+    "電磁漂浮": {
+      "en": "Magnet Rise",
+      "ja": "でんじふゆう",
+      "status": "needs-review"
+    },
+    "電球": {
+      "en": "Electro Ball",
+      "ja": "エレキボール",
+      "status": "provisional"
+    },
+    "日光束": {
+      "en": "Solar Beam",
+      "ja": "ソーラービーム",
+      "status": "provisional"
+    },
+    "指導": {
+      "en": "Coaching",
+      "ja": "コーチング",
+      "status": "provisional"
+    },
+    "光牆": {
+      "en": "Light Screen",
+      "ja": "ひかりのかべ",
+      "status": "provisional"
+    },
+    "精神擊破": {
+      "en": "Psystrike",
+      "ja": "サイコブレイク",
+      "status": "needs-review"
+    },
+    "瞬間移動": {
+      "en": "Teleport",
+      "ja": "テレポート",
+      "status": "provisional"
+    },
+    "戲法空間": {
+      "en": "Trick Room",
+      "ja": "トリックルーム",
+      "status": "provisional"
+    },
+    "充電光束": {
+      "en": "Charge Beam",
+      "ja": "チャージビーム",
+      "status": "needs-review"
+    },
+    "閃電猛衝": {
+      "en": "Wild Charge",
+      "ja": "ワイルドボルト",
+      "status": "needs-review"
+    },
+    "拋物面充電": {
+      "en": "Parabolic Charge",
+      "ja": "パラボラチャージ",
+      "status": "needs-review"
+    },
+    "打雷": {
+      "en": "Thunder",
+      "ja": "かみなり",
+      "status": "provisional"
+    },
+    "熱風": {
+      "en": "Heat Wave",
+      "ja": "ねっぷう",
+      "status": "needs-review"
+    },
+    "電光": {
+      "en": "Spark",
+      "ja": "スパーク",
+      "status": "provisional"
+    },
+    "念力": {
+      "en": "Confusion",
+      "ja": "ねんりき",
+      "status": "provisional"
+    },
+    "屏障": {
+      "en": "Barrier",
+      "ja": "バリアー",
+      "status": "provisional"
+    },
+    "力量互換": {
+      "en": "Power Swap",
+      "ja": "パワースワップ",
+      "status": "needs-review"
+    },
+    "雪崩": {
+      "en": "Avalanche",
+      "ja": "ゆきなだれ",
+      "status": "provisional"
+    },
+    "極光幕": {
+      "en": "Aurora Veil",
+      "ja": "オーロラベール",
+      "status": "needs-review"
+    },
+    "波導彈": {
+      "en": "Aura Sphere",
+      "ja": "はどうだん",
+      "status": "needs-review"
+    },
+    "音速拳": {
+      "en": "Mach Punch",
+      "ja": "マッハパンチ",
+      "status": "needs-review"
+    },
+    "閃電強襲": {
+      "en": "Volt Tackle",
+      "ja": "ボルテッカー",
+      "status": "needs-review"
+    },
+    "雷電拳": {
+      "en": "Thunder Punch",
+      "ja": "かみなりパンチ",
+      "status": "needs-review"
+    },
+    "伏特攻擊": {
+      "en": "Volt Tackle",
+      "ja": "ボルテッカー",
+      "status": "provisional"
+    },
+    "十萬伏特": {
+      "en": "Thunderbolt",
+      "ja": "１０まんボルト",
+      "status": "provisional"
+    },
+    "定身法": {
+      "en": "Disable",
+      "ja": "かなしばり",
+      "status": "needs-review"
+    },
+    "下盤踢": {
+      "en": "Low Sweep",
+      "ja": "ローキック",
+      "status": "needs-review"
+    },
+    "水流裂破": {
+      "en": "Liquidation",
+      "ja": "アクアブレイク",
+      "status": "provisional"
+    },
+    "妖精之風": {
+      "en": "Fairy Wind",
+      "ja": "ようせいのかぜ",
+      "status": "provisional"
+    },
+    "修長之角": {
+      "en": "Smart Strike",
+      "ja": "スマートホーン",
+      "status": "needs-review"
+    },
+    "青焰": {
+      "en": "Blue Flare",
+      "ja": "あおいほのお",
+      "status": "needs-review"
+    },
+    "拍落": {
+      "en": "Knock Off",
+      "ja": "はたきおとす",
+      "status": "provisional"
+    },
+    "奇異之光": {
+      "en": "Confuse Ray",
+      "ja": "あやしいひかり",
+      "status": "provisional"
+    },
+    "雙翼": {
+      "en": "Dual Wingbeat",
+      "ja": "ダブルウイング",
+      "status": "provisional"
+    },
+    "子彈拳": {
+      "en": "Bullet Punch",
+      "ja": "バレットパンチ",
+      "status": "provisional"
+    },
+    "劍舞": {
+      "en": "Swords Dance",
+      "ja": "つるぎのまい",
+      "status": "provisional"
+    },
+    "二連擊": {
+      "en": "Double Hit",
+      "ja": "ダブルアタック",
+      "status": "provisional"
+    },
+    "連斬": {
+      "en": "Fury Cutter",
+      "ja": "れんぞくぎり",
+      "status": "provisional"
+    },
+    "狂舞揮打": {
+      "en": "Raging Fury",
+      "ja": "げきりん",
+      "status": "needs-review"
+    },
+    "看穿": {
+      "en": "Detect",
+      "ja": "みきり",
+      "status": "needs-review"
+    },
+    "巨聲": {
+      "en": "Hyper Voice",
+      "ja": "ハイパーボイス",
+      "status": "provisional"
+    },
+    "大聲咆哮": {
+      "en": "Snarl",
+      "ja": "バークアウト",
+      "status": "needs-review"
+    },
+    "熱水": {
+      "en": "Scald",
+      "ja": "ねっとう",
+      "status": "provisional"
+    },
+    "瞬間失憶": {
+      "en": "Amnesia",
+      "ja": "ドわすれ",
+      "status": "provisional"
+    },
+    "抓狂": {
+      "en": "Thrash",
+      "ja": "あばれる",
+      "status": "provisional"
+    },
+    "哈欠": {
+      "en": "Yawn",
+      "ja": "あくび",
+      "status": "provisional"
+    },
+    "擋路": {
+      "en": "Block",
+      "ja": "とおせんぼう",
+      "status": "provisional"
+    },
+    "冥想": {
+      "en": "Calm Mind",
+      "ja": "めいそう",
+      "status": "provisional"
+    },
+    "飛翔": {
+      "en": "Fly",
+      "ja": "そらをとぶ",
+      "status": "needs-review"
+    },
+    "勇鳥猛攻": {
+      "en": "Brave Bird",
+      "ja": "ブレイブバード",
+      "status": "needs-review"
+    },
+    "燕返": {
+      "en": "Aerial Ace",
+      "ja": "つばめがえし",
+      "status": "provisional"
+    },
+    "巨力錘": {
+      "en": "Heavy Slam",
+      "ja": "ヘビーボンバー",
+      "status": "needs-review"
+    },
+    "小偷": {
+      "en": "Thief",
+      "ja": "どろぼう",
+      "status": "provisional"
+    },
+    "冰槌": {
+      "en": "Ice Hammer",
+      "ja": "アイスハンマー",
+      "status": "needs-review"
+    },
+    "換檔": {
+      "en": "Shift Gear",
+      "ja": "ギアチェンジ",
+      "status": "needs-review"
+    },
+    "破音": {
+      "en": "Boomburst",
+      "ja": "ばくおんぱ",
+      "status": "needs-review"
+    },
+    "木槌": {
+      "en": "Wood Hammer",
+      "ja": "ウッドハンマー",
+      "status": "needs-review"
+    },
+    "詛咒": {
+      "en": "Curse",
+      "ja": "のろい",
+      "status": "needs-review"
+    },
+    "分擔痛處": {
+      "en": "Pain Split",
+      "ja": "いたみわけ",
+      "status": "needs-review"
+    },
+    "木角": {
+      "en": "Horn Leech",
+      "ja": "ウッドホーン",
+      "status": "needs-review"
+    },
+    "三旋擊": {
+      "en": "Triple Axel",
+      "ja": "トリプルアクセル",
+      "status": "provisional"
+    },
+    "踩踏": {
+      "en": "Stomp",
+      "ja": "ふみつけ",
+      "status": "provisional"
+    },
+    "熱帶踢": {
+      "en": "Trop Kick",
+      "ja": "トロピカルキック",
+      "status": "provisional"
+    },
+    "青草滑梯": {
+      "en": "Grassy Glide",
+      "ja": "グラススライダー",
+      "status": "provisional"
+    },
+    "噴火": {
+      "en": "Eruption",
+      "ja": "ふんか",
+      "status": "needs-review"
+    },
+    "火焰輪": {
+      "en": "Flame Wheel",
+      "ja": "かえんぐるま",
+      "status": "needs-review"
+    },
+    "尖石攻擊": {
+      "en": "Rock Slide",
+      "ja": "ストーンエッジ",
+      "status": "needs-review"
+    },
+    "流沙地獄": {
+      "en": "Sand Tomb",
+      "ja": "すなじごく",
+      "status": "needs-review"
+    },
+    "原始之力": {
+      "en": "Ancient Power",
+      "ja": "げんしのちから",
+      "status": "needs-review"
+    },
+    "祈願": {
+      "en": "Wish",
+      "ja": "ねがいごと",
+      "status": "needs-review"
+    },
+    "黑色目光": {
+      "en": "Mean Look",
+      "ja": "くろいまなざし",
+      "status": "needs-review"
+    },
+    "欺詐": {
+      "en": "Foul Play",
+      "ja": "イカサマ",
+      "status": "needs-review"
+    },
+    "暗冥強擊＋地獄突刺": {
+      "en": "Wicked Blow＋Throat Chop",
+      "ja": "あんこくきょうだ＋じごくづき",
+      "status": "needs-review"
+    },
+    "水流連打＋流水裂破": {
+      "en": "Surging Strikes＋Liquidation",
+      "ja": "すいりゅうれんだ＋アクアブレイク",
+      "status": "needs-review"
+    },
+    "水流環": {
+      "en": "Aqua Ring",
+      "ja": "アクアリング",
+      "status": "needs-review"
+    },
+    "快速折返": {
+      "en": "Flip Turn",
+      "ja": "クイックターン",
+      "status": "needs-review"
+    },
+    "花瓣舞": {
+      "en": "Petal Dance",
+      "ja": "はなびらのまい",
+      "status": "provisional"
+    },
+    "終極吸取": {
+      "en": "Giga Drain",
+      "ja": "ギガドレイン",
+      "status": "provisional"
+    },
+    "唱歌": {
+      "en": "Sing",
+      "ja": "うたう",
+      "status": "provisional"
+    },
+    "滾動": {
+      "en": "Rollout",
+      "ja": "ころがる",
+      "status": "provisional"
+    },
+    "連環巴掌": {
+      "en": "Double Slap",
+      "ja": "おうふくビンタ",
+      "status": "provisional"
+    },
+    "死亡之翼": {
+      "en": "Oblivion Wing",
+      "ja": "デスウイング",
+      "status": "needs-review"
+    },
+    "電磁炮": {
+      "en": "Zap Cannon",
+      "ja": "でんじほう",
+      "status": "needs-review"
+    },
+    "放電": {
+      "en": "Discharge",
+      "ja": "ほうでん",
+      "status": "provisional"
+    },
+    "瘋狂伏特": {
+      "en": "Wild Charge",
+      "ja": "ワイルドボルト",
+      "status": "provisional"
+    },
+    "居合斬": {
+      "en": "Cut",
+      "ja": "いあいぎり",
+      "status": "provisional"
+    },
+    "大地粉碎擊": {
+      "en": "Seismic Slam",
+      "ja": "アースクラッシャー",
+      "status": "pilot-match"
+    },
+    "暗冥強擊": {
+      "ja": "あんこくきょうだ",
+      "status": "needs-review"
+    },
+    "地獄突刺": {
+      "ja": "じごくづき",
+      "status": "needs-review"
+    },
+    "水流連打": {
+      "ja": "すいりゅうれんだ",
+      "status": "needs-review"
+    },
+    "流水裂破": {
+      "ja": "アクアブレイク",
+      "status": "needs-review"
+    }
+  },
+  "moveNamesVersion": "V37.4",
+  "moveNamesNote": "V37.4：補齊武道熊師四個獨立技能名稱的日文對照，供固定流派技能列逐項顯示；不更動技能組識別碼、勝利紀錄或其他語言對照。"
 }
